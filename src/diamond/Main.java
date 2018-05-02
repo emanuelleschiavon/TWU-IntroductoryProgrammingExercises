@@ -18,13 +18,13 @@ public class Main {
             System.out.println();
         }
 
-        for(int i = number-1; i > 0 ; i--) {
+        for (int i = number - 1; i > 0; i--) {
 
-            for (int j = number+1; j > i+1; j--) {
+            for (int j = number + 1; j > i + 1; j--) {
                 System.out.print(" ");
             }
 
-            int base = 2*i-1;
+            int base = 2 * i - 1;
             for (int j = base; j > 0; j--) {
                 System.out.print("*");
             }
