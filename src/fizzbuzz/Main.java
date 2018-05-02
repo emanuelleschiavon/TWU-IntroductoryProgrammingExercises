@@ -2,7 +2,11 @@ package fizzbuzz;
 
 public class Main {
     public static void main(String[] args) {
-        int number = 100;
+        fizzBuzz();
+    }
+
+    private static void fizzBuzz() {
+        int number = 30;
 
         for (int i = 1; i <= number; i++) {
             boolean isDivisibleThree = i % 3 == 0;
